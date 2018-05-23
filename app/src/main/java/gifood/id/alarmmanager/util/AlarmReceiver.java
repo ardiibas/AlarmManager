@@ -18,10 +18,10 @@ import gifood.id.alarmmanager.R;
 
 public class AlarmReceiver extends BroadcastReceiver {
 
-    private static final String TYPE_ONE_TIME = "OneTimeAlarm";
-    private static final String TYPE_REPEATING = "RepeatingAlarm";
-    private static final String EXTRA_MESSAGE = "message";
-    private static final String EXTRA_TYPE = "type";
+    public static final String TYPE_ONE_TIME = "OneTimeAlarm";
+    public static final String TYPE_REPEATING = "RepeatingAlarm";
+    public static final String EXTRA_MESSAGE = "message";
+    public static final String EXTRA_TYPE = "type";
     private final int NOTIF_ID_ONETIME = 100;
     private final int NOTIF_ID_REPEATING = 101;
 
